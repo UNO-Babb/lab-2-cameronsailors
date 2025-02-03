@@ -14,7 +14,7 @@ def main():
   "Outlook good.", "Reply hazy, try again.", "Signs point to yes.", "Very doubtful.", "Without a doubt.", "Yes.", "Yes – definitely.",
   "You may rely on it."]
   #Prompt the user for their question.
-  input("Ask the magic 8 ball a question:")
+  input("Ask the magic 8 ball a question: ")
   #Answer question randomly with one of the options from your earlier list.
   response = random.choice(answers)
   print(response)

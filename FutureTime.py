@@ -16,6 +16,8 @@ def main():
 
   #TODO:
   #Ask user for hours
+  added_hours=int(input("Enter number of hours: "))
+  added_minutes=int(input("Enter number of minutes: "))
   #Ask user for minutes
 
   #Calculate the time after the user-supplied time has passed.
